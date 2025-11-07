@@ -1,9 +1,6 @@
-Absolutely — here’s a **clean, concise, and professional** version of your Frontend Mentor *Recipe Page* README. It keeps only the meaningful sections, trims repetition, and uses refined phrasing while following Frontend Mentor standards.
-
----
-
-````markdown
 # Frontend Mentor - Recipe Page Solution
+
+![Screenshot of my solution](./preview.jpg)
 
 This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).  
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
