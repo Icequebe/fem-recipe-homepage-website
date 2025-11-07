@@ -109,4 +109,4 @@ Next, I plan to:
 
 ## Acknowledgments
 
-Thanks to the Frontend Mentor community for feedback and design inspiration.
+Thanks to the Frontend Mentor community for feedback and design inspiration from kevin powells articles. 
