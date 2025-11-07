@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: var(--size-step-1);
+    line-height: 1.6;
+    font-weight: var(--fw-base);
+    background-color: var(--clr-stone-100);
+    color: var(--clr-stone-900);
+}
+
+h1, h2, h3 {
+    font-weight: var(--fw-base);
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
+p, li, blockquote {
+    max-width: 65ch;
+    color: var(--clr-stone-600);
+}
+
+li {
+    margin-inline-start: -1em;
+    padding-left: 1em;
+}
+
+li::marker {
+    font-size: var(--size-step-1);
+    font-weight: var(--fw-bold);
+    color: var(--clr-rose-800);
+}
+
+li > strong {
+    font-size: var(--size-step-1);
+}

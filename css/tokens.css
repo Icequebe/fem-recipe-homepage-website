@@ -1,0 +1,71 @@
+/* ============================================= */
+/* CUSTOM PROPERTIES - DESIGN SYSTEM TOKENS      */
+/* ============================================= */
+
+/** === FONT DECLEARATION === */
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    src: url('../assets/fonts/young-serif-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit-semi-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit-bold.woff2') format('woff2');
+}
+
+/** === TYPE DECLEARATION === */
+:root {
+    --font-head: "Young Serif", Georgia, 'Times New Roman', serif;
+    --font-body: "Outfit", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    --size-step-0: 0.875rem;
+    --size-step-1: 1rem;
+    --size-step-2: 1.25rem;
+    --size-step-3: 2.5rem;
+    --size-step-4: 2.75rem;
+
+    --fw-base: 400;
+    --fw-semi: 600;
+    --fw-bold: 700;
+
+    --radius: 0.75rem;
+}
+
+/** === SPACE DECLEARATION === */
+:root {
+    --space-xs: 0.5rem;
+    --space-sm: 1.5rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+}
+
+/** === THEME DECLEARATION === */
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-stone-100: hsl(30, 54%, 90%);
+    --clr-stone-150: hsl(30, 18%, 87%);
+    --clr-stone-600: hsl(30, 10%, 34%);
+    --clr-stone-900: hsl(24, 5%, 18%);
+    --clr-brown-800: hsl(14, 45%, 36%);
+    --clr-rose-800: hsl(332, 51%, 32%);
+    --clr-rose-50: hsl(330, 100%, 98%);
+}

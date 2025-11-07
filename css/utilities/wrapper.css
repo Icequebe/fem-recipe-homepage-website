@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 56rem;
+    margin-inline: auto;
+    background-color: var(--clr-stone-100);
+    padding: 8em;
+    border-radius: var(--radius);
+    /* margin-top: 8em; */
+    
+    @media (width < 1280px) {
+        max-width: 100%;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,36 @@
+.nutrition {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition th,
+.nutrition td {
+    padding-block: var(--space-sm);
+    text-align: left;
+    border-bottom: 1px solid var(--clr-stone-150);
+
+    @media (width < 64em) {
+        margin-inline: auto;
+        padding-inline: 1em;
+    }
+}
+
+.nutrition tr:last-child td,
+.nutrition tr:last-child th {
+    border-bottom: none;
+}
+
+.nutrition td {
+    font-weight: var(--fw-semi);
+    color: var(--clr-brown-800);
+}
+
+.nutrition th {
+    font-weight: var(--fw-base);
+    color: var(--clr-stone-600);
+}
+
+.is-tight td,
+.is-tight th {
+    padding: var(--space-sm);
+}

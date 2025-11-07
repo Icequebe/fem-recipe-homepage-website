@@ -1,0 +1,53 @@
+/* ========================================== */
+/* CORE CONFIGURATION FOR TOKEN UTILITIES     */
+/* ========================================== */
+
+/** === FONT DECLEARATION === */
+.font-head { font-family: var(--font-head); }
+.font-body { font-family: var(--font-body); }
+
+/** === TYPE DECLEARATION === */
+.text-500 { font-size: var(--size-step-4); }
+.text-400 { font-size: var(--size-step-3); }
+.text-300 { font-size: var(--size-step-2); }
+.text-200 { font-size: var(--size-step-1); }
+.text-100 { font-size: var(--size-step-0); }
+
+.fw-400 { font-weight: var(--fw-base); }
+.fw-600 { font-weight: var(--fw-semi); }
+.fw-700 { font-weight: var(--fw-bold); }
+
+.radius { border-radius: var(--radius); }
+
+/** === SPACE DECLEARATION === */
+.my-xs { margin-block: var(--space-xs); }
+.my-sm { margin-block: var(--space-sm); }
+.my-md { margin-block: var(--space-md); }
+.my-lg { margin-block: var(--space-lg); }
+.my-xl { margin-block: var(--space-xl); }
+
+.py-xs { padding-block: var(--space-xs); }
+.py-sm { padding-block: var(--space-sm); }
+.py-md { padding-block: var(--space-md); }
+.py-lg { padding-block: var(--space-lg); }
+.py-xl { padding-block: var(--space-xl); }
+
+/** === THEME DECLEARATION === */
+.bg-white { background-color: var(--clr-white); }
+.bg-rose-50 { background-color: var(--clr-rose-50); }
+.bg-rose-800 { background-color: var(--clr-rose-800); }
+.bg-stone-100 { background-color: var(--clr-stone-100); }
+.bg-stone-150 { background-color: var(--clr-stone-150); }
+.bg-stone-600 { background-color: var(--clr-stone-600); }
+.bg-stone-900 { background-color: var(--clr-stone-900); }
+.bg-brown-800 { background-color: var(--clr-brown-800); }
+
+.color-white { color: var(--clr-white); }
+.color-rose-50 { color: var(--clr-rose-50); }
+.color-rose-800 { color: var(--clr-rose-800); }
+.color-stone-100 { color: var(--clr-stone-100); }
+.color-stone-150 { color: var(--clr-stone-150); }
+.color-stone-600 { color: var(--clr-stone-600); }
+.color-stone-900 { color: var(--clr-stone-900); }
+.color-brown-800 { color: var(--clr-brown-800); }
+
