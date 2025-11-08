@@ -21,7 +21,7 @@ p, li, blockquote {
 }
 
 li {
-    margin-inline-start: -1em;
+    margin-inline-start: clamp(-0.5, 2vw + 0.25em, -1em);
     padding-left: 1em;
 }
 
@@ -33,4 +33,5 @@ li::marker {
 
 li > strong {
     font-size: var(--size-step-1);
+
 }
