@@ -61,12 +61,12 @@
     font-size: var(--size-step-2);
     font-weight: var(--fw-semi);
     color: var(--clr-rose-800);
-    margin-block-end: 1em;
+    margin-block-end: clamp(0.5em, 2vw + 0.25em, 1em);
 }
 
 .recipe__section {
     border-block-end: 1px solid var(--clr-stone-150);
-    padding-bottom: var(--space-lg);
+    padding-block-end: var(--space-lg);
 
     @media (width < 64em) {
         padding-inline: var(--space-md);
@@ -88,4 +88,5 @@
     color: var(--clr-stone-600);
 
 }
+
 
