@@ -2,7 +2,7 @@
     max-width: 56rem;
     margin-inline: auto;
     background-color: var(--clr-stone-100);
-    padding: 8em;
+    padding: clamp(4em, 2vw + 1em, 80em);
     border-radius: var(--radius);
     
     @media (width < 1280px) {
@@ -11,3 +11,4 @@
     }
 
 }
+
