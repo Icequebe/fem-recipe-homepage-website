@@ -31,8 +31,11 @@
     src: url('../assets/fonts/outfit-bold.woff2') format('woff2');
 }
 
-/** === TYPE DECLEARATION === */
+/** ================================================ */
+/*  CUSTOM PROPERTIES DESIGN TOKENS
+/** ================================================ */
 :root {
+    /** === TYPE DECLEARATION === */
     --font-head: "Young Serif", Georgia, 'Times New Roman', serif;
     --font-body: "Outfit", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
@@ -47,19 +50,15 @@
     --fw-bold: 700;
 
     --radius: 0.75rem;
-}
 
-/** === SPACE DECLEARATION === */
-:root {
+    /** === SPACE DECLEARATION === */
     --space-xs: 0.5rem;
     --space-sm: 1.5rem;
     --space-md: 1.5rem;
     --space-lg: 2rem;
     --space-xl: 3rem;
-}
 
-/** === THEME DECLEARATION === */
-:root {
+    /** === THEME DECLEARATION === */
     --clr-white: hsl(0, 0%, 100%);
     --clr-stone-100: hsl(30, 54%, 90%);
     --clr-stone-150: hsl(30, 18%, 87%);
@@ -69,3 +68,4 @@
     --clr-rose-800: hsl(332, 51%, 32%);
     --clr-rose-50: hsl(330, 100%, 98%);
 }
+
