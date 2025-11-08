@@ -20,7 +20,7 @@
     border-bottom: none;
 }
 
-.nutrition > td {
+.nutrition td {
     font-weight: var(--fw-semi);
     color: var(--clr-brown-800);
 }
@@ -35,3 +35,4 @@
     padding: var(--space-sm);
 
 }
+
