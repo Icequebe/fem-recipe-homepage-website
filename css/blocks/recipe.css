@@ -61,7 +61,7 @@
     font-size: var(--size-step-2);
     font-weight: var(--fw-semi);
     color: var(--clr-rose-800);
-    margin-bottom: 1em;
+    margin-block-end: 1em;
 }
 
 .recipe__section {
@@ -88,3 +88,4 @@
     color: var(--clr-stone-600);
 
 }
+
