@@ -22,6 +22,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body:focus {
+  outline: none; 
+}
+
+.scrollable:focus {
+  outline: 2px solid var(--clr-primary);
+}
+
+
 img,
 picture,
 video,
@@ -47,3 +56,4 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
+
