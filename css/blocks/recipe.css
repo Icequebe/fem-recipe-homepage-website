@@ -6,8 +6,8 @@
     border-radius: var(--radius);
 
     @media (width < 64em) {
-        padding: 0px;
-        border-radius: none;
+        padding: 0;
+        border-radius: 0;
     }
 }
 
@@ -86,4 +86,5 @@
 
 .recipe__heading > p {
     color: var(--clr-stone-600);
+
 }
